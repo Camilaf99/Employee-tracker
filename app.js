@@ -4,12 +4,14 @@ var inquirer = require("inquirer");
 const viewChoices = [
     "View Departments",
     "View Roles",
-    "Add a role",
     "View Employees",
+    "Add department",
+    "Add a role",
     "Add an Employee",
-    "Update Employee",
+    "Update Employee's role",
     "exit"
 ]
+/*
 const viewEmployees = [
     "Emily Bee",
     "Nyla Lyon",
@@ -30,6 +32,10 @@ const employeeRoles = [
     "Accountant",
     "Staff"
 ]
+
+
+*/
+
 inquirer
   .prompt([
       {
@@ -40,5 +46,95 @@ inquirer
       },
   ])
   .then((answers) => {
-    console.log(answer.actions);
+    console.log(answers.actions);
   });
+
+  inquirer
+   .prompt ([
+       {
+           name: "department_name",
+           type:"input",
+           message:"Please provide name for the new department"
+       }
+   ]);
+
+   inquirer 
+    .prompt ([
+        {
+            name: "role_name",
+            type:"input",
+            message:"Please provide name for the new role"
+        }
+    ]);
+
+     inquirer
+     .prompt ([
+         {
+             name:"role_salary",
+             type:"numerical",
+             message:"Please provide role salary"
+         }
+     ]);
+
+     inquirer
+     .prompt ([
+         {
+             name:"role_department",
+             type:"input",
+             message:"Please provide department for new role"
+         }
+     ]);
+
+     inquirer
+     .prompt ([
+         {
+             name:"employee_firstname",
+             type:"input",
+             message:"Please provide employee first name"
+         }
+     ]);
+
+     inquirer
+     .prompt ([
+         {
+             name:"employee_lastname",
+             type:"input",
+             message:"Please provide employee last name"
+         }
+     ]);
+
+     inquirer
+     .prompt ([
+         {
+             name:"employee_role",
+             type:"input",
+             message:"Please provide employee role"
+         }
+     ]);
+
+     inquirer
+     .prompt ([
+         {
+             name:"employee_manager",
+             type:"input",
+             message:"Please provide manager's id"
+         }
+     ]);
+
+     inquirer
+     .prompt ([
+         {
+             name:"update_employee",
+             type:"input",
+             message:"Please provide employee id"
+         }
+     ]);
+
+     inquirer
+     .prompt ([
+         {
+             name:"update_role",
+             type:"input",
+             message:"Please provide employee new role"
+         }
+     ]);
