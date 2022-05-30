@@ -28,7 +28,7 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 ```
 ##Mock-Up
-The following video shows an example of the application being used from the command line: (link to video)
+The following video shows an example of the application being used from the command line: https://drive.google.com/file/d/1dM_qCMZHIKnIiQR1UsY0YCfnBZqPM3am/view
 
 ## Instructions
 Design the database schema as shown in the following image: 
@@ -52,7 +52,7 @@ This Challenge is graded based on the following criteria:
 ## Walkthrough Video: 27%
 * A walkthrough video that demonstrates the functionality of the employee tracker must be submitted, and a link to the video should be included in your README file.
 
-* The walkthrough video must show all of the technical acceptance criteria being met.
+* The walkthrough video must show all of the technical acceptance criteria being met. https://drive.google.com/file/d/1dM_qCMZHIKnIiQR1UsY0YCfnBZqPM3am/view
 
 * The walkthrough video must demonstrate how a user would invoke the application from the command line.
 

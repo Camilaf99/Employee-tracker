@@ -300,29 +300,3 @@ function handleMainMenuOptions(answers) {
 
 
 mainMenu();
-
-/*
-const viewEmployees = [
-    "Emily Bee",
-    "Nyla Lyon",
-    "Marco Cantu",
-    "Theo Hanna",
-    "Nicky Mack",
-    "Ryan Hope"
-]
-const updateChoices = [
-    "First Name",
-    "Last Name",
-    "Role",
-    ""
-]
-const employeeRoles = [
-    "Manager",
-    "Sales",
-    "Accountant",
-    "Staff"
-]
-
-
-*/
-
